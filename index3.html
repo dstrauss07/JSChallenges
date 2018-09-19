@@ -1,0 +1,67 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drummmer Millionaire Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body onload="PageWrite()">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="nav-item nav-link text-primary" href="\">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link text-danger" href="\index1.html">Fizz Boom!</a>
+        <a class="nav item nav-link text-info" href="\index2.html">Cars Page</a>
+        <a class="nav-item nav-link active text-warning" href="\index3.html">Drummers Quiz</a>
+    </nav>
+
+
+    <main>
+        <div class="row justify-content-center">
+            <h2 class="text-danger">So You Want to be a Drummer(aire)?</h2>
+        </div>
+
+        <div class="row justify-content-center">
+                <div class="col-8 d-none" id="success-area">Success!</div>
+            </div>
+    
+            <div class="row justify-content-center bg-light">
+                    <div class="col-2 text-right text-warning">To Win:</div>
+                    <div class="col-1 text-warning"><span id="money-area"></span> $ </div>
+                   <div class="col-2 text-right text-success">Winnings:</div>
+                   <div class="col-1 text-success"><span id="winnings-area"></span> $ </div>
+                   <div class="col-2 text-right text-primary">Question #:</div>
+                   <div class="col-1 text-primary" id="stage-area"></div>
+                </div>
+        <div class="row justify-content-center bg-light">
+            <div class="col-8 bg-dark">
+                <h4 class="text-center text-warning" id="question-num"></h4>
+                <p class="text-center text-info" id="question"></p>
+            </div>
+        </div>
+        <div class="row justify-content-center m-1">
+            <div class="col-2"><button class="btn btn-success"><span id="ans1"></span></button></div>
+            <div class="col-2"><button class="btn btn-danger"><span id="ans2"></span></button></div>
+        </div>
+        <div class="row justify-content-center m-1">
+                <div class="col-2"> <button class="btn btn-info"><span id="ans3"></span></button>   </div>  
+                    <div class="col-2"> <button class="btn btn-warning"><span id="ans4"></span></button> </div>
+            </div>
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="\challenge3.js"></script>
+</body>
+
+</html>
