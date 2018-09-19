@@ -15,15 +15,14 @@ var vehicleYear = document.getElementById('vehicle-year'),
             carModel = model.value,
             carVin = vin.value;
         return{
-            Display: carYear + "  |  " + carMake +  "  |  " + carModel + "  |  VIN#= " + carVin + "<br>"
-
-        }
+            Display: carYear + "  |  " + carMake +  "  |  " + carModel + " | VIN#= " + carVin + "<br>"}
     }
 
 submitButton.addEventListener("click",function(){
+carArea.innerHTML = "";
 var currentCar = new Car(vehicleYear,vehicleMake,vehicleModel,vehicleVin);
 cars.push(currentCar.Display);
-    carArea.innerHTML = cars;
-    return false;
-
+    for(i=0;i<cars.length;i++){
+        carArea.innerHTML += cars[i];
+    }
 })
