@@ -5,7 +5,7 @@ var startButton = document.getElementById("start-button");
 
 
 var startCounting = function StartCounting(){
-  //  alert("hello");
+//alert("hello");
   var i = 0;
 /*   var sleep = function sleep(milliseconds) {
     var start = new Date().getTime();
@@ -30,7 +30,7 @@ var startCounting = function StartCounting(){
         fizzBox.innerHTML += "<span class='text-danger'> Fizz Boom Super Extreme!!!! <br> </span>";
         }
        i++;
-     sleep(1000);
+     /* sleep(1000); */
  }
 
 }
